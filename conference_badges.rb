@@ -14,7 +14,6 @@ def batch_badge_creator(array)
   end
   
   return badge_messages
-  
 end
 
 
@@ -30,7 +29,6 @@ def assign_rooms(attendees)
   end
   
   return assign_list
-  
 end
 
 
