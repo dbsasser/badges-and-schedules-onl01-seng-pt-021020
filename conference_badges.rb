@@ -34,7 +34,7 @@ end
 
 def printer(attendees)
   
-  puts batch_badge_creator(attendees)
+  puts batch_badge_creator(attendees).first
   
   assign_rooms.each do |message|
     puts "#{message}"
