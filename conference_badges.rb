@@ -32,7 +32,9 @@ def assign_rooms(attendees)
 end
 
 
-def printer
+def printer(attendees)
+  
+  batch_bad
  
   
   assign_rooms.each do |message|
