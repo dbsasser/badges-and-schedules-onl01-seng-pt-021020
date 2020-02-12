@@ -37,4 +37,5 @@ def printer(attendees)
   
   assign_rooms.each do |message|
     puts "#{message}"
+  end
 end
