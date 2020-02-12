@@ -33,7 +33,7 @@ end
 
 
 def printer
-  puts batch_badge_creator
+ 
   
   assign_rooms.each do |message|
     puts "#{message}"
